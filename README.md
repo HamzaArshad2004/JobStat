@@ -24,6 +24,10 @@ This project fetches job listings for a user-specified keyword (e.g., a major or
 - **BeautifulSoup (bs4)**: For web scraping.
 - **Pandas**: For data manipulation and presentation.
 
+## Note: Add your Jooble API key to the code:
+   ```python
+   api_key = 'your-jooble-api-key'
+   ```
 
 ## Usage
 1. Run the script:
