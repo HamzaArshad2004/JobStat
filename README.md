@@ -28,7 +28,7 @@ This project fetches job listings for a user-specified keyword (e.g., a major or
 ## Usage
 1. Run the script:
    ```bash
-   python job_listing_scraper.py
+   python main.py
    ```
 
 2. Enter a keyword when prompted (e.g., "Software Engineer" or "Marketing").
@@ -38,17 +38,6 @@ This project fetches job listings for a user-specified keyword (e.g., a major or
    - Fetch job listings related to the keyword in each state.
    - Scrape crime rates and cost of living index data for the job listing states.
    - Display and store the final data in a pandas DataFrame.
-
-## Project Structure
-```
-📁 job-listings-and-state-data
-│
-├── README.md               # Project documentation
-├── ETHICS.md               # Ethical considerations
-├── job_listing_scraper.py   # Main script
-├── requirements.txt        # Dependencies
-└── data                    # (Optional) Output data files
-```
 
 ## Data Sources
 - **Jooble API**: For fetching job listings.
